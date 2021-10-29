@@ -75,11 +75,7 @@ def random_messages(n):
     if n > row_num:
         n = row_num
 
-    ran_messages = []
-
-    for i in range(n):
-        ran_message = cursor.execute("SELECT handle, message FROM messages ORDER BY RANDOM() LIMIT 1;").fetchone()
-        ran_messages.append(ran_message)
+    ran_messages = cursor.execute(f"""SELECT handle, message FROM messages ORDER BY RANDOM() LIMIT {n};""").fetchall()
 
     db.close()
 
