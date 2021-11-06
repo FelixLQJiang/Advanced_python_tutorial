@@ -1,0 +1,64 @@
+html {
+    font-family: sans-serif;
+    background: LightCyan;
+    padding: 1rem;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: gold;
+    font-family: fantasy;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+a {
+    color: LightSalmon;
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
+nav {
+    background: lightcyan;
+    padding: 0 0.5rem;
+    border-radius: 25px;
+}
+
+nav ul  {
+    color: rgb(255, 153, 0);
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: LightCoral;
+    font-family: Sans-serif;
+    display: block;
+    padding: 0.5rem;
+}
+
+.content {
+    padding: 0 1rem 1rem;
+    background: Linen;
+    border-radius: 25px;
+}
+
+ul li{
+    font-family: "Times New Roman", serif;
+    font-size: 130%;
+}
+
+ul i{
+    font-family: "Brush Script MT", Cursive;
+    font-size: 130%;
+}
